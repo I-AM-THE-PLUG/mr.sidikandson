@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact M. SIDIK & SONS COMPANY LIMITED - Get in touch via WhatsApp, email, or our contact form">
+  <title>Contact Us | M. SIDIK & SONS COMPANY LIMITED</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <a href="https://wa.me/233201276381" class="floating-wa" target="_blank" rel="noopener noreferrer">
+    <i class="fab fa-whatsapp"></i><span class="wa-text">WhatsApp Us</span><span class="wa-badge">24/7</span>
+  </a>
+
+  <header class="site-header">
+    <div class="container nav-container">
+      <div class="logo-wrapper">
+        <a href="index.html" class="logo-link">
+          <div class="logo-icon">
+            <div class="logo-shield">
+              <i class="fas fa-hard-hat"></i>
+              <i class="fas fa-bolt"></i>
+            </div>
+          </div>
+          <div class="logo-text">
+            <span class="company-name">M. SIDIK & SONS</span>
+            <span class="company-suffix">COMPANY LIMITED</span>
+          </div>
+        </a>
+      </div>
+      
+      <nav class="main-nav" id="mainNav">
+        <ul class="nav-list">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="services.html" class="nav-link">Services</a></li>
+          <li><a href="about.html" class="nav-link">About Us</a></li>
+          <li><a href="projects.html" class="nav-link">Projects</a></li>
+          <li><a href="contact.html" class="nav-link active">Contact</a></li>
+        </ul>
+      </nav>
+      
+      <div class="header-actions">
+        <a href="https://wa.me/233201276381" class="btn-contact-header">
+          <i class="fab fa-whatsapp"></i><span>Contact Now</span>
+        </a>
+        <button class="mobile-toggle" id="mobileToggle"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="page-banner">
+      <div class="container">
+        <h1>Contact Us</h1>
+        <div class="breadcrumb">
+          <a href="index.html">Home</a> <i class="fas fa-chevron-right"></i> <span>Contact</span>
+        </div>
+      </div>
+    </div>
+
+    <section class="contact-main-section container">
+      <div class="contact-grid">
+        <!-- Left Column: Contact Info -->
+        <div class="contact-info-wrapper">
+          <div class="contact-info-card">
+            <h2>Get In Touch</h2>
+            <p class="contact-intro">We're ready to discuss your project requirements and provide competitive quotations. Choose your preferred contact method below.</p>
+            
+            <div class="contact-method-primary">
+              <a href="https://wa.me/233201276381" class="contact-wa-block" target="_blank">
+                <i class="fab fa-whatsapp"></i>
+                <div class="wa-details">
+                  <span class="wa-label">WhatsApp Direct Line</span>
+                  <span class="wa-number">+233 20 127 6381</span>
+                  <span class="wa-availability">Typically responds within 15 minutes</span>
+                </div>
+                <i class="fas fa-arrow-right"></i>
+              </a>
+            </div>
+            
+            <div class="contact-methods-grid">
+              <div class="contact-method-card">
+                <i class="fas fa-envelope-open-text"></i>
+                <h4>Email Us</h4>
+                <a href="mailto:m.sidikandsons@gmail.com">m.sidikandsons@gmail.com</a>
+                <span>For detailed inquiries and documentation</span>
+              </div>
+              <div class="contact-method-card">
+                <i class="fas fa-phone-alt"></i>
+                <h4>Call Us</h4>
+                <a href="tel:+233201276381">+233 20 127 6381</a>
+                <span>Mon-Fri: 7:30 AM - 6:00 PM</span>
+              </div>
+              <div class="contact-method-card">
+                <i class="fas fa-map-marker-alt"></i>
+                <h4>Visit Our Office</h4>
+                <address>123 Industrial Area,<br>Spintex Road, Accra, Ghana</address>
+              </div>
+              <div class="contact-method-card">
+                <i class="fas fa-clock"></i>
+                <h4>Business Hours</h4>
+                <p>Monday - Friday: 7:30 AM - 6:00 PM</p>
+                <p>Saturday: By Appointment</p>
+              </div>
+            </div>
+            
+            <div class="emergency-contact">
+              <i class="fas fa-exclamation-triangle"></i>
+              <div>
+                <h5>Emergency Support</h5>
+                <p>24/7 emergency response for critical electrical and plumbing issues</p>
+                <a href="https://wa.me/233201276381" class="emergency-link" target="_blank">Request Emergency Assistance →</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Right Column: Contact Form -->
+        <div class="contact-form-wrapper">
+          <div class="contact-form-card">
+            <h2>Send Us a Message</h2>
+            <p>Fill out the form below and we'll respond promptly</p>
+            
+            <form id="contactForm" class="contact-form">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="firstName">First Name *</label>
+                  <input type="text" id="firstName" name="firstName" placeholder="John" required>
+                </div>
+                <div class="form-group">
+                  <label for="lastName">Last Name *</label>
+                  <input type="text" id="lastName" name="lastName" placeholder="Mensah" required>
+                </div>
+              </div>
+              
+              <div class="form-group">
+                <label for="company">Company/Organization</label>
+                <input type="text" id="company" name="company" placeholder="Your company name (optional)">
+              </div>
+              
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="email">Email Address *</label>
+                  <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                </div>
+                <div class="form-group">
+                  <label for="phone">Phone Number</label>
+                  <input type="tel" id="phone" name="phone" placeholder="+233 XX XXX XXXX">
+                </div>
+              </div>
+              
+              <div class="form-group">
+                <label for="serviceType">Service of Interest *</label>
+                <select id="serviceType" name="serviceType" required>
+                  <option value="">-- Please select a service --</option>
+                  <option value="construction">Construction Services</option>
+                  <option value="electrical">Electrical Installations</option>
+                  <option value="plumbing">Plumbing Services</option>
+                  <option value="consulting">Business Consulting</option>
+                  <option value="mining">Mining Export & Import</option>
+                  <option value="sports">Sports Development</option>
+                  <option value="other">Other / General Inquiry</option>
+                </select>
+              </div>
+              
+              <div class="form-group">
+                <label for="projectType">Project Type</label>
+                <select id="projectType" name="projectType">
+                  <option value="">-- Select project type --</option>
+                  <option value="new">New Project / Construction</option>
+                  <option value="renovation">Renovation / Rehabilitation</option>
+                  <option value="maintenance">Maintenance / Service Contract</option>
+                  <option value="consultation">Consultation / Planning</option>
+                  <option value="emergency">Emergency Repair</option>
+                </select>
+              </div>
+              
+              <div class="form-group">
+                <label for="budget">Estimated Budget Range</label>
+                <select id="budget" name="budget">
+                  <option value="">-- Select budget range --</option>
+                  <option value="under10k">Under GHS 10,000</option>
+                  <option value="10k-50k">GHS 10,000 - 50,000</option>
+                  <option value="50k-200k">GHS 50,000 - 200,000</option>
+                  <option value="200k-1m">GHS 200,000 - 1,000,000</option>
+                  <option value="over1m">Over GHS 1,000,000</option>
+                </select>
+              </div>
+              
+              <div class="form-group">
+                <label for="message">Project Details / Message *</label>
+                <textarea id="message" name="message" rows="5" placeholder="Please describe your project requirements, timeline, and any specific needs..." required></textarea>
+              </div>
+              
+              <div class="form-group checkbox-group">
+                <label class="checkbox-label">
+                  <input type="checkbox" name="urgent" value="yes">
+                  <span>This is an urgent request (we'll prioritize response)</span>
+                </label>
+              </div>
+              
+              <button type="submit" class="btn-submit-form">
+                <i class="fas fa-paper-plane"></i>
+                Send Message
+              </button>
+              
+              <p class="form-disclaimer">
+                <i class="fas fa-info-circle"></i>
+                This form is for demonstration. For immediate response, please use WhatsApp.
+              </p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Map Placeholder -->
+    <section class="map-section container">
+      <div class="map-placeholder">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3971.533444444444!2d-0.186964!3d5.603717!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf9084b2b7a773%3A0x83e6a0ce12f54350!2sAccra!5e0!3m2!1sen!2sgh!4v1700000000000!5m2!1sen!2sgh" 
+                width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-main">
+        <div class="footer-about">
+          <div class="footer-logo">
+            <i class="fas fa-hard-hat"></i>
+            <span>M. SIDIK & SONS CO. LTD</span>
+          </div>
+          <p>Building solutions across industries with integrity, excellence, and innovation since 1990.</p>
+          <div class="footer-social">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+        
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-services">
+          <h4>Our Services</h4>
+          <ul>
+            <li><a href="services.html#construction">Construction</a></li>
+            <li><a href="services.html#electrical">Electrical Installations</a></li>
+            <li><a href="services.html#plumbing">Plumbing Services</a></li>
+            <li><a href="services.html#consulting">Business Consulting</a></li>
+            <li><a href="services.html#mining">Mining Export & Import</a></li>
+            <li><a href="services.html#sports">Sports Development</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-contact">
+          <h4>Contact Us</h4>
+          <ul>
+            <li><i class="fas fa-map-marker-alt"></i> 123 Industrial Area, Accra, Ghana</li>
+            <li><i class="fab fa-whatsapp"></i> <a href="https://wa.me/233201276381">+233 20 127 6381</a></li>
+            <li><i class="far fa-envelope"></i> <a href="mailto:m.sidikandsons@gmail.com">m.sidikandsons@gmail.com</a></li>
+            <li><i class="fas fa-clock"></i> Mon-Fri: 7:30 AM - 6:00 PM</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2026 M. SIDIK & SONS COMPANY LIMITED. All Rights Reserved.</p>
+        <div class="footer-legal">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+    // Contact form demo handler
+    document.getElementById('contactForm')?.addEventListener('submit', function(e) {
+      e.preventDefault();
+      alert('✅ Thank you for contacting M. SIDIK & SONS!\n\nThis is a demonstration form. For immediate response, please use WhatsApp at +233 20 127 6381 or email m.sidikandsons@gmail.com.\n\nWe look forward to working with you!');
+    });
+  </script>
+</body>
+</html>
